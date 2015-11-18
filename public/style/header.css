@@ -1,0 +1,57 @@
+.header {
+    position: absolute;
+    z-index: 99999;
+    background: url(../img/header-bg.png) no-repeat;
+    height: 185px;
+    background-size: cover;
+    width: 100%;
+    margin-top: -168px;
+}
+
+    .left-block {
+        display: inline-block;
+    }
+
+    .right-block {
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+        font-size: 14px;
+    }
+
+        .contact-phone {
+            text-align: right;
+            line-height: 16px;
+        }
+            .contact-phone i {
+                background: url(../img/icon-info.png) no-repeat;
+                width: 10px;
+                height: 15px;
+                display: inline-block;
+            }
+            .contact-phone p {
+                display: inline-block;
+                line-height: 30px;
+            }
+
+        .nav {
+            line-height: 16px;
+        }
+            .nav li {
+                float: left;
+            }
+                .nav a {
+                    padding: 0 14px;
+                }
+
+                    .nav li:hover a {
+                        color: #92b65a;
+                    }
+
+                    .nav li:last-child a {
+                        padding: 0 0 0 14px;
+                    }
+
+                    .nav li.active a{
+                        color: #92b65a;
+                    }

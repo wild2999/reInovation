@@ -1,0 +1,223 @@
+.index-page {
+    padding-top: 85px;
+    position: relative;
+}
+
+    .block-welcome {
+        background: url(../img/block1-bg.png) no-repeat;
+        background-size: 100%;
+        height: 1006px;
+        position: relative;
+        z-index: 1;
+        margin-top: 185px;
+        text-align: center;
+        white-space: nowrap;
+        color: #fff;
+        font-size: 16px;
+    }
+
+        .block-welcome:before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+        .block-welcome__main-block {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+            .main-block__frame-upper {
+                background: url(../img/frame-big-img.png) no-repeat;
+                display: inline-block;
+                width: 583px;
+                height: 321px;
+                text-align: left;
+            }
+
+                .main-block__frame-upper:before {
+                    content: '';
+                    display: inline-block;
+                    height: 100%;
+                    vertical-align: middle;
+                }
+
+                    .main-block__frame-upper span {
+                        font-size: 3.5em;
+                        vertical-align: middle;
+                        padding-left: 25px;
+                    }
+
+                .main-block__frame-lower {
+                    background: url(../img/frame-small-img.png) no-repeat;
+                    display: inline-block;
+                    width: 406px;
+                    height: 110px;
+                    vertical-align: middle;
+                    margin-left: 15px;
+                    text-align: center;
+                }
+
+                .main-block__frame-lower:before {
+                    content: '';
+                    display: inline-block;
+                    height: 100%;
+                    vertical-align: middle;
+                }
+
+                    .main-block__frame-lower h1 {
+                        font-weight: normal;
+                        font-size: 3.5em;
+                        vertical-align: middle;
+                        display: inline-block;
+                        -webkit-transition: top 5s ease-out 0.5s;
+                        -moz-transition: top 5s ease-out 0.5s;
+                        -o-transition: top 5s ease-out 0.5s;
+                        transition: top 5s ease-out 0.5s;;
+                    }
+                    
+    .action-block {
+        background: url(../img/action-bg.png) no-repeat;
+        background-size: 100%;
+        height: 630px;
+        position: relative;
+        z-index: 2;
+        margin-top: -18px;
+    }
+
+        .action-block__sphere {
+            width: 320px;
+            height: 320px;
+            display: inline-block;
+
+        }
+
+    .about {
+        text-align: center;
+        font-size: 16px ;
+    }
+        .about__title {}
+            .about__title h1 {}
+
+            .about__title p {
+                width: 37%;
+                margin: 20px auto;
+            }
+
+    .services {
+        text-align: center;
+        font-size: 16px;
+        background: url(../img/services-bg.png) no-repeat;
+        background-size: 100%;
+        height: 670px;
+        color: #fff;
+    }
+        .services__title {
+            padding-top: 30px;
+        }
+            .services__title h1 {
+                text-transform: capitalize;
+            }
+
+            .services__title p {
+                width: 35%;
+                margin: 20px auto;
+                font-size: 1.3em;
+            }
+
+        .services__images {}
+            .services__images ul {}
+                .services__images li {
+                    display: inline-block;
+                    width: 30%;
+                }
+                    .services__images li.active span {
+                        color: #92b65a;
+                    }
+
+                    .services__images li:hover span {
+                        color: #92b65a;
+                    }
+                    .services__images a {
+                        background: url(../img/services-round.png) no-repeat;
+                        display: inline-block;
+                        width: 204px;
+                        height: 206px;
+                        vertical-align: middle;
+                        word-break: break-word;
+                    }
+                        .services__images a:before {
+                            content: '';
+                            display: inline-block;
+                            height: 100%;
+                            vertical-align: middle;
+                        }
+
+                            .services__images span {
+                                display: inline-block;
+                                vertical-align: middle;
+                                font-size: 2em;
+                                color:#0183d7;
+                            }
+
+    .our-works {
+        text-align: center;
+        font-size: 16px;
+    }
+        .our-works__title {}
+            .our-works__title h1{
+                text-transform: none;
+            }
+        .our-works__images {
+            margin: 100px 0 0;
+        }
+            .our-works__images li {
+                display: inline-block;
+                margin: 0 10px;
+            }
+                .our-works__btn {
+                    background: url(../img/portfolio-btn.png) no-repeat 0 -100px;
+                    display: inline-block;
+                    width: 302px;
+                    height: 100px;
+                    margin: 50px 0;
+                }
+                    .our-works__btn:hover {
+                        background-position: 0 2px;
+                    }
+
+    .our-clients {
+        text-align: center;
+        font-size: 16px;
+        background: url(../img/clients-bg.png) no-repeat;
+        background-size: 100%;
+        height: 520px;
+    }
+        .our-clients__title {
+            padding-top: 30px;
+        }
+            .our-clients__title h1 {
+                text-transform: none;
+                color: #fff;
+            }
+            
+        .our-clients__slider {
+            width: 100%;
+            display: inline-block;
+        }
+
+            .our-clients__slider:before {
+                content: '';
+                display: inline-block;
+                height: 100%;
+                vertical-align: middle;
+            }
+
+
+            .our-clients__slider-bg {
+                background: url(../img/clients-band-img.png) no-repeat;
+                background-size: 100%;
+                height: 215px;
+                vertical-align: middle;
+            }

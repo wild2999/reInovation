@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'MyriadPro';
+    position: relative;
+}
+
+    body.main-page {
+        margin-top: -85px;
+    }
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.border-black {
+    background: url(../img/border-black.png) no-repeat;
+    display: inline-block;
+    width: 390px;
+    height: 10px;
+}
+
+.border-white {
+    background: url(../img/border-white.png) no-repeat;
+    width: 378px;
+    height: 9px;
+    display: inline-block;
+}
+
+.templ-sizeH1 {
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-weight: normal;
+}
+
+.templ-sizeP {
+    text-align: left;
+    font-size: 1.1em
+}
